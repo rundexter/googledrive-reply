@@ -52,6 +52,12 @@
             "title":"Action"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive"
+        ]
+    }],
     "icon": "dex-drive",
     "title": "Google Drive Reply to Comment" /* Required.A display name for the module */
 }
